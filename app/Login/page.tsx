@@ -1,3 +1,5 @@
+'use client'
+
 import test from "node:test";
 import firebase from "firebase/compat/app";
 import "firebase/compat/app";
@@ -56,7 +58,8 @@ const LoginPage: React.FC = () => {
 
 };
 
-// export default LoginPage;
+export default LoginPage;
+
 // //firebase code to run the authentication tests
 // const loginForm = document.getElementById('loginForm');
 // const loginMessage = document.getElementById('loginMessage');
