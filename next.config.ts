@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import firebase from "firebase/compat/app";
 
 const nextConfig: NextConfig = {
   /* config options here */
