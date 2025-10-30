@@ -9,6 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "firebase": "^12.4.0",
+    "firebaseui": "^6.1.0",
     "git": "^0.1.5",
     "next": "16.0.0",
     "react": "19.2.0",
