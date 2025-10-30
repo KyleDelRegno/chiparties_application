@@ -2,7 +2,7 @@
 
 import test from "node:test";
 import React, {useState} from "react";
-import { firebaseAuth } from '@/firebase';
+import { firebaseAuth } from '@/firebase/config';
 
 // export default function Login(){
 //     return (
