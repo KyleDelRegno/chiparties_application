@@ -1,9 +1,8 @@
 'use client'
 
 import test from "node:test";
-import firebase from "firebase/compat/app";
-import "firebase/compat/app";
 import React, {useState} from "react";
+import { firebaseAuth } from '@/firebase';
 
 // export default function Login(){
 //     return (

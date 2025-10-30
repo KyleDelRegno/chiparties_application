@@ -21,8 +21,10 @@ const firebase = {
 
 // Initialize Firebase as const
 const firebaseApp = initializeApp(firebase);
-const firebaseAnalytics = getAnalytics(firebaseApp);
 const firebaseAuth = getAuth(firebaseApp);
 const firebaseDB = getFirestore(firebaseApp);
 
-export default firebaseApp;
+//firebase working fully test
+console.log("🔥 Firebase Initialized Successfully");
+
+export { firebaseApp, firebaseAuth };
